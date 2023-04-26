@@ -1,0 +1,107 @@
+footer{
+    
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: left;
+}
+
+
+h1{
+ /* background:url("img/fondo.png"); */
+    background-color:orange;
+    height: 200px;   
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+
+section{
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 15px;
+}
+
+.col p{
+    text-align: center;
+}
+
+.col li{
+    text-align: center;
+}
+
+.tabla{
+    text-align: left;
+}
+
+.tabla img{
+    width: 90px;
+
+}
+
+.tabla .a2{
+    margin-left: 25px;
+}
+
+
+
+.navbar-brand{
+    background-color: #A2D901;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+}
+
+.navbar-brand .grande{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 20px; 
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+.boton{
+    color: white;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 0;
+    margin-right: 20px;
+    color: gainsboro;
+}
+
+.navbar{
+    padding: 0;
+    margin-left: 80px;
+}
+
+.numero{
+    font-size: 60px;
+}
+
+.card-footer{
+    background-color: #A2D901;  
+    border-color: #A2D901; 
+}
+
+
+.lista{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px
+}
+
+.card-footer .boton{
+    color: white;
+    font-size: 20px;
+}

@@ -1,121 +1,282 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>A2 FaseB</title>
-    <link rel="stylesheet" href="css/estilo.css">
-</head>
-<body>
-   <div id="agrupar">
-    <header id="cabecera">
-        <h1>Derechos digitales</h1>
-    </header>
-    <nav>
-        <ul>
-            <li>Quiénes somos</li>
-            <li>Que hacemos</li>
-            <li>Publicaciones</li>
-            <li>Participa</li>
-        </ul>
-    </nav>
-    <section>
-      <article>
-         <header>
-          <hgroup>
-               <h3> Pandemia muestra que no estamos preparados para la vida digital</h3>
-               <h4>Entrevista a Irina Bocharnikova, responsable de la Cooperación Internacional de la Universidad Estatal de Astracán en Rusia</h4>
-           </hgroup>
-           <p>Publicado 21 Ago 2020</p>
-         </header>
-           
-            <p>
-                A partir del aislamiento y la cuarentena todas las escuelas cerraron sus puertas y la educación comenzó a darse a distancia, “fue un proceso difícil porque no estábamos preparados”. 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EXAMEN PW</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="css/estilos.css" rel="stylesheet">
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg">
+  
+        <div class="navbar-brand" href="#">
+        <p class="grande" href="#">WKSP</p>
+    <p >Workshops demo site</p>
+    </div>
 
- Al respecto, compartió la situación con su hija de seis años: “Fue complicado porque teníamos que aprender los programas y fue un desastre total, los padres nos dimos cuenta que teníamos hijos y debíamos enseñarles, nos dimos cuenta que los profesores son como ángeles que organizan el proceso educativo”. 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="verde ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link active"  href="#">INICIO</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            WORKSHOPS
+          </a>
+           <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">INSTALACIONES</a>
+        </li><li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+      </div>
+</nav>
+ 
+       <header class="fw-light">
+             <h1 class="display-3">Desarrolla Front-end like a boss aprendiendo Boostrap3</h1>
+</header>
+  <section>
+  <div class="container text-center">
+  <div class="row">
+    <div class="col-sm-7">
+        <h2 text-left>En este workshop aprenderás...</h2>
+        <p>En este workshop de 7 horas de duración aprenderás cómo optimizar tu flujo de trabajo a la hora de realizar el front-end de un proyecto web. 
+        La metodología apoyada en el framework Boostrap 3 parte desde la fase de diseño hasta finalizar en la fase de desarrollo.</p>
+        <p>Aprenderás a diseñar para Boostrap, a orientar el diseño bajo la filosofía mobile first responsive web design y descubrirás la metodología adecuada para convertir ese diseño en una maqueta HTML5 de una forma ágil y sencilla.
+        </p>
+        <p>
+            Como siempre podrás complementar todo lo que aprendas durante el workshop compartiendo experiencias con otros asistentes y el/los ponentes durente la comida o la cena típica asturiana que degustarán todos los que se anime
+        </p>
 
-<span>Se pensaba que en Rusia el coronavirus llegaría como una ola pero no fue así, se dio de manera paulatina, por ello los padres se tuvieron que involucrar en la <cite>planeación y enseñanza</cite>, enseñarle a sus hijos;</span> hubo niños que pedían a sus padres regresar a la escuela y había profesores muy cansados por dar las clases a distancia pues probablemente consumen más energía que hacerlo de manera presencial, compartió.
-            </p>
-            <figure>
-                <img src="images/020720-DAVID-conferencia-U-de-Astracan-en-el-PEAN-UV-1-100k.jpg" alt="">
-                <figcaption><span>Irina Bocharnikova, Universidad Estatal de <mark>Astracán</mark>, Rusia</span></figcaption>
-            </figure>
-         <footer><p>Comentarios</p></footer>   
-        </article>
-          <article>
-         <header>
-          <hgroup>
-               <h3> Primero lo primero</h3>
-               <h4>Asegurate de que la red tenga contraseña</h4>
-           </hgroup>
-           <p>Publicado 19 Ago 2020</p>
-         </header>
-           
-            <p>
-                Cuando una red Wi-Fi no tiene contraseña no solamente es susceptible a que cualquiera pueda conectarse y consumir el ancho de banda, sino
-que también permite a terceros acceder a: los equipos dentro de la red, los
-recursos compartidos como carpetas en red, impresoras, etc.
-No tener contraseña de acceso a tu red Wi-Fi también abre la posibilidad de
-explotar las vulnerabilidades que los sistemas operativos de los dispositivos
-conectados pudieran tener, especialmente si no se encuentran actualizados.
-Recomendamos como primer paso establecer una buena contraseña para
-la red, teniendo en cuenta algunas limitaciones -que discutiremos más
-adelante- para personalizar estas contraseñas.
-            </p>
-         <footer><p>24567 Comentarios</p></footer>   
-        </article>
-        <article>
-         <header>
-          <hgroup>
-               <h3> Sobre nuestro router</h3>
-               <h4>Revisar si el router puede ser administrado por cualquier persona
-no autorizada dentro de la red</h4>
-           </hgroup>
-           <p>Publicado 20 de Ago 2020</p>
-         </header>
-           
-            <p>
-                Generalmente en nuestro router podemos ajustar muchas características
-de funcionamiento que permiten optimizar el uso que hacemos de la
-red (inalámbrica y cableada), sin embargo estas posibilidades también
-pueden ser abusadas para violar nuestra seguridad. Algunas cosas que un
-atacante puede hacer son: enviar el tráfico a equipos específicos, cambiar
-la contraseña y dejar a las propietarias de la red fuera de esta, acceder
-a equipos dentro de la red y explotar vulnerabilidades de seguridad para
-tomar control de ellos, y otras actividades maliciosas que dependan de las
-características del router.
-            </p>
-         <footer><p> 167,393 Comentarios</p></footer>   
-        </article><article>
-         <header>
-          <hgroup>
-               <h3>Nuestro router puede ser administrado desde internet?</h3>
-               <h4>Revisión de seguridad</h4>
-           </hgroup>
-           <p><time datetime="2021-01-21" pubdate> Publicado 21 Ene 2021</time></p>
-         </header>
-           
-            <p>
-                En muchos casos, de forma inadvertida, poseemos una dirección IP Pública (a
-la que se puede llegar desde cualquier lugar en Internet) y cuando accedemos
-a ella llegamos a la misma página de administración del router que
-acabamos de revisar. Esto puede ser bastante inseguro, sobretodo si -como
-vimos- tenemos un usuario y contraseña de administración de fábrica. 
-            </p>
-         <footer><p>Comentarios</p></footer>   
-        </article>
-           
+         <div class="tabla">
+          <div class="row">
+           <h5>Los formadores</h5>
+            <div class="col-sm-4">
+            <img src="img/marcos_profile.png">
+            </div>
+            <div class="col-sm-8">
+            <h6>Marcos González</h6>
+            <ul class="list-unstyled">
+                <li>Fundador y director de (Q) interactiva.</li>
+                <li>Co-fundador y CTO de Infocket.</li>
+                <li>Formador en video2brain.</li>
+                <li><a href="#">CV ONLINE</a><a class="a2" href="#">@qmarcos</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+            <img src="img/armando_profile.png">
+            </div>
+            <div class="col-sm-8">
+            <h6>Armando Sotoca</h6>
+            <ul class="list-unstyled">
+                <li>Diseñador todoterreno en (Q) interactiva.</li>
+                <li>Co-fundador y CTO de Infocket</li>
+                <li>Autor de criteriondg.info</li>
+                <li><a href="#">CV ONLINE</a><a class="a2" href="#">@skeku</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+      </div>
+
+    <div class="col-sm-4">
+        <h3>Registro</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque magnam eum nihil sequi error officia aut qui nostrum autem modi fugit placeat ea inventore eveniet pariatur, iusto dolorum illo. Ducimus.</p>
+        <div class="card mt-3 mb-3">
+  <div class="card-body">
+    <div class="row">
+          <div class="col-sm-2">
+                    <p></p>
+                </div>
+        <div class="col-sm-4">
+                    <p class="numero fw-lighter">99€</p>
+                </div>
+                 <div class="col-sm-4">
+                   <ul class="lista list-unstyled">
+                       <li>workshop+</li>
+                       <li>desayuno+</li>
+                       <li>almuerzo</li>
+                   </ul>
+                </div>
+                  <div class="col-sm-2">
+                    <p></p>
+                </div>
+      </div>
+  </div>
+  <div class="card-footer">
+       <a class="boton" href="#">ME APUNTO!</a>
+  </div>
+</div>
+        
+      
+        <div class="agenda">
+        <h4 class="fw-light fs-2">Agenda del día</h4>
+        <p class="fw-bolder fs-2px">W23 Sábado 29 septiembre</p>
+        <div class="row">
+            <div class="col-sm-3 fw-bold">10,00h</div>
+            <div class="col-sm-9">Workshop parte 1/4</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 fw-bolder">11,45h</div>
+            <div class="col-sm-9">Descanso</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 fw-bolder">12,00h</div>
+            <div class="col-sm-9">Workshop parte 2/4</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 fw-bolder">14,00h</div>
+            <div class="col-sm-9">Comida</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 fw-bolder">16,00h</div>
+            <div class="col-sm-9">Workshop parte 3/4</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 fw-bolder">17,45h</div>
+            <div class="col-sm-9">Descanso</div>
+        </div>
+         <div class="row">
+            <div class="col-sm-3 fw-bolder">10,00h</div>
+            <div class="col-sm-9">Workshop parte 4/4</div>
+        </div>
+         <div class="row">
+            <div class="col-sm-3 fw-bolder">19,30h</div>
+            <div class="col-sm-9">Fin workshop</div>
+        </div>
+    </div>
+        </div>
+      </div>
+      </div>
+
+                        <!--INDICE-->                
+      
+      <div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col-md-4">
+      <h2> índice de contenidos </h2>
+        </div>
+    <div class="col-md-3">
+      <h5> 1.FRAMEWORKS FRONT-END </h5>
+         <ul class="list-unstyled">
+             <li class="fw-light">Item índice primero</li>
+             <li class="fw-light">Item índice segundo</li>
+             <li class="fw-light">Item índice tercero</li>
+         </ul>
+      <h5>2.SEGUNDO PUNTO</h5>
+         <ul class="list-unstyled">
+             <li class="fw-light">Item índice primero</li>
+             <li class="fw-light">Item índice segundo</li>
+             <li class="fw-light">Item índice tercero</li>
+             <li class="fw-light">Item índice cuarto</li>
+         </ul>
+            <div class="col-md-5">
+      <h5> </h5>
+         <ul class="list-unstyled">
+             
+         </ul>
+      <h5></h5>
+         <ul class="list-unstyled">
+         </ul>
+    </div>
+    </div>
+</div>
+            <div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col-md-3">
+      <h5> 3.TERCER PUNTO </h5>
+         <ul class="list-unstyled">
+             <li class="fw-light">Item índice segundo</li>
+             <li class="fw-light">Item índice tercero</li>
+             <li class="fw-light">Item índice cuarto</li>
+         </ul>
+      <h5>4.CUARTO PUNTO</h5>
+         <ul class="list-unstyled">
+             <li class="fw-light">Item índice primero</li>
+             <li class="fw-light">Item índice segundo</li>
+             <li class="fw-light">Item índice tercero</li>
+             <li class="fw-light">Item índice cuarto</li>
+         </ul>        
+      </div>
+    <div class="col-md-3">
+      <h5>5.QUINTO PUNTO</h5>
+         <ul class="list-unstyled">
+             <li class="fw-light">Item índice primero</li>
+             <li class="fw-light">Item índice segundo</li>
+             <li class="fw-light">Item índice tercero</li>
+             <li class="fw-light">Item índice cuarto</li>
+             <li class="fw-light">Item índice quinto</li>
+             <li class="fw-light">Item índice sexto</li>
+         </ul>
+     <div class="col-md-6">
+      <h5> </h5>
+         <ul class="list-unstyled">
+             
+         </ul>
+      <h5></h5>
+         <ul class="list-unstyled">
+         </ul>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+
+                        <!--FIN DE INDICE-->              
+    </section>
 
       
-        
-    </section>
-    <aside>
-        <blockquote>Desahibilita WPS</blockquote>
-        <blockquote>Desactiva los protocolos de seguridad WPE y WPA</blockquote>
-    </aside>
-    <footer id="pie">
-        <small>&copy;Derechos Reservado <address> <a href="https://www.uv.mx/personal/mmartinez/<time>    </time>">Tu nombre</a></address>. Última actualización ?</small>
-        
-    </footer>
+      
+      
+        <footer class="container-fluid bg-dark">
+            <div class="container text-align">
+  <div class="row align-items-start">
+    <div class="col-lg-3">
+      <h6> PRÓXIMOS WORKSHOPS</h6>
+                <ul class="list-unstyled">
+             <li><a href="#">Título del primer workshop de pruebas</a></li>
+             <li><a href="#">Título del segundo workshop de pruebas</a></li>
+            </ul>
+        </div>
+          <div class="col-lg-3">
+            <h6> Sobre los workshopsS</h6>
+          <p>Estos workshops son el resultado de la suma de la ilusión y esfuerzos de</p>
+            <h7>Bello González Adela Ivette</h7>
+          <p>Una apuesta diferente al panorama formativo nacional aunando workshops de primer nivel, impartidos por reconocidos profesionales con una experiencia de fin de semana, en un entorno diferente.</p>
+      </div>
+    <div class="col-lg-6">
+           <form>
+  <fieldset disabled>
+      <h5>NO TE PIERDAD NUESTRAS NOVEDADES</h5>
+    <div class="col-lg-6">
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="Tu correo electrónico">
     </div>
-</body>
+   <button type="button" class="btn fw-bolder btn-light">Suscribirme</button>
+  </fieldset>
+</form>
+
+    <div class="col-lg-5">
+      <h5> TE GUSTA? CORRE LA VOZ </h5>
+          <p>Si te gusta esta filosofía de formación o has acudido a uno de nuestros workshops y te hemos convencido, ayúdanos a promocionarlos por internet para que otros puedan disfrutar de ellos</p>
+      </div>
+      </div>
+  
+      </div>
+      </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
 </html>
